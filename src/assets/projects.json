@@ -1,9 +1,23 @@
 [
   {
-    "projectLink": "https://example.com/my-project",
-    "img": "https://images.unsplash.com/photo-1719937051157-d3d81cc28e86?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "projectTitle": "Innovative Web App",
-    "projectPosition": "Lead Developer",
-    "projectDescription": "A cutting-edge web application designed to streamline productivity and enhance user experience."
+    "projectLink": "https://www.youtube.com/watch?v=sOSQsO9bcuw&t=59s",
+    "projectTitle": "Swiped",
+    "projectPosition": "Music Composer"
+  },
+  {
+    "projectLink": "https://youtu.be/I2kGw1qyyXk?si=I70issafn8mRTZNl",
+    "projectTitle": "Pattim Ganvak",
+    "projectPosition": "Music Producer/Composer"
+  },
+  
+  {
+    "projectLink": "https://open.spotify.com/episode/7zqR09iBaqIrARLIDo1SoQ?si=2cd44a82538b44a0",
+    "projectTitle": "Why is the Ranji trophy such a big deal in India",
+    "projectPosition": "Audio Producer"
+  },
+  {
+    "projectLink": "https://www.audible.in/podcast/Cooking-Tips-from-Swatis-Kitchen/B0BS6XHZV3?qid=1731348667&sr=1-1&ref_pageloadid=KFoy1Me3pPuofPbH&pf_rd_p=2d02bc98-4366-4f94-99d9-5e898cda0766&pf_rd_r=NSXX0K6XVM28G07FHTW0&pageLoadId=dkGQGbP6lsTTTGzJ&creativeId=b2592cc9-1111-40d9-9474-98f67c8075cc&ref=a_search_c3_lProduct_1_1",
+    "projectTitle": "Cooking Tips from Swati's Kitchen",
+    "projectPosition": "Audio Producer"
   }
 ]

@@ -1,13 +1,15 @@
 import projectData from "../assets/projects.json";
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 import ProjectComponent from "../components/ProjectComponent";
 
 export default function Projects() {
   console.log(projectData);
   return (
-    <div className="bg-slate-900 text-white h-screen">
+		<>
+    <div className="bg-white text-black h-screen">
       <Navigation></Navigation>
-      <h2 className="font-bold text-5xl text-center py-5 text-white">
+      <h2 className="font-bold text-5xl text-center py-5 text-black">
         Projects
       </h2>
       <p className="text-center font-bold text-1xl">
@@ -28,5 +30,7 @@ export default function Projects() {
         })}
       </div>
     </div>
+			<Footer />
+		</>
   );
 }
