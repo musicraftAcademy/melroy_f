@@ -4,7 +4,7 @@ export default function BlogComponent(props) {
     String(props.title).charAt(0).toUpperCase() + String(props.title).slice(1)
   );
   return (
-    <a href={`/blog/${link}`}>
+    <a href={`${import.meta.env.BASE_URL}/blog/${link}`}>
       <div className="">
         <img src={props.img} alt="" className="" />
         <h3 className="text-black font-bold text-2xl">{title}</h3>

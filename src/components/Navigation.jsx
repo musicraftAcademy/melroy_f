@@ -50,7 +50,7 @@ export default function Navigation() {
           <ul className="text-2xl flex flex-col font-bold p-10 md:gap-5 md:p-1 mt-4 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
               <a
-                href="/about"
+                href={`${import.meta.env.BASE_URL}/about`}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 About
@@ -58,8 +58,8 @@ export default function Navigation() {
             </li>
             <li>
               <a
-                href="/blog"
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
+                href={`${import.meta.env.BASE_URL}/blog`}
+								className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 Blogs
               </a>
@@ -67,7 +67,7 @@ export default function Navigation() {
 
             <li>
               <a
-                href="/tracks"
+								href={`${import.meta.env.BASE_URL}/tracks`}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 Tracks
@@ -75,7 +75,7 @@ export default function Navigation() {
             </li>
             <li>
               <a
-                href="/projects"
+								href={`${import.meta.env.BASE_URL}/projects`}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 Projects
@@ -83,7 +83,7 @@ export default function Navigation() {
             </li>
             <li>
               <a
-                href="/gallery"
+								href={`${import.meta.env.BASE_URL}/gallery`}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 Gallery
