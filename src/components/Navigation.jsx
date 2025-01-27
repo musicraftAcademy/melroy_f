@@ -64,15 +64,6 @@ export default function Navigation() {
                 Blogs
               </a>
             </li>
-
-            <li>
-              <a
-								href={`${import.meta.env.BASE_URL}/tracks`}
-                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
-              >
-                Tracks
-              </a>
-            </li>
             <li>
               <a
 								href={`${import.meta.env.BASE_URL}/projects`}
@@ -83,10 +74,10 @@ export default function Navigation() {
             </li>
             <li>
               <a
-								href={`${import.meta.env.BASE_URL}/gallery`}
+								href={`${import.meta.env.BASE_URL}/connect`}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
-                Gallery
+              Connect
               </a>
             </li>
           </ul>

@@ -14,6 +14,7 @@ export default function About() {
             <h2 className="text-2xl font-semibold mb-4">
               Composer | Music Producer | Educator
             </h2>
+            <img src="https://i.imgur.com/3113ZiA.jpeg" />
             <p className="mb-6">
               Melroy Fernandes is a multi-faceted record producer, composer, and
               educator from Mangalore, India, whose music defies boundaries.
@@ -78,6 +79,7 @@ export default function About() {
               performances, or mentoring aspiring musicians, his mission is to
               leave a lasting impact on the music world.
             </p>
+            <img src="https://i.imgur.com/VV4dODn.jpeg" />
 
             <h3 className="text-2xl font-semibold mb-4">Timeline</h3>
             <ul className="list-disc list-inside mb-6">
@@ -94,6 +96,10 @@ export default function About() {
               film directors, and bands, combining creative visions to produce
               impactful music.
             </p>
+            <div className="flex flex-col gap-5 py-5">
+              <img src="https://i.imgur.com/14m44Y5.jpeg" />
+              <img src="https://i.imgur.com/P4fEiUz.jpeg" />
+            </div>
           </div>
         </div>
       </div>
