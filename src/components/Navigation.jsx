@@ -11,11 +11,11 @@ export default function Navigation() {
     <nav className="">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
-          href="/"
+          href={`${import.meta.env.BASE_URL}/`}
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-yellow-300">
-            MF
+            Home
           </span>
         </a>
         <button
@@ -43,8 +43,9 @@ export default function Navigation() {
           </svg>
         </button>
         <div
-          className={`${isMenuOpen ? "block" : "hidden"
-            } w-full md:block md:w-auto`}
+          className={`${
+            isMenuOpen ? "block" : "hidden"
+          } w-full md:block md:w-auto`}
           id="navbar-default"
         >
           <ul className="text-2xl flex flex-col font-bold p-10 md:gap-5 md:p-1 mt-4 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
@@ -59,14 +60,14 @@ export default function Navigation() {
             <li>
               <a
                 href={`${import.meta.env.BASE_URL}/blog`}
-								className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
+                className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 Blogs
               </a>
             </li>
             <li>
               <a
-								href={`${import.meta.env.BASE_URL}/projects`}
+                href={`${import.meta.env.BASE_URL}/projects`}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
                 Projects
@@ -74,10 +75,10 @@ export default function Navigation() {
             </li>
             <li>
               <a
-								href={`${import.meta.env.BASE_URL}/connect`}
+                href={`${import.meta.env.BASE_URL}/connect`}
                 className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-yellow-300 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
               >
-              Connect
+                Connect
               </a>
             </li>
           </ul>

@@ -1,10 +1,21 @@
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
+const styles = {
+  bgImg: {
+    backgroundImage: `url("https://i.imgur.com/bk5Obix.jpeg")`,
+    backgroundAttachment: "fixed",
+    backgroundPosition: "left top",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+  },
+};
+
+
 export default function About() {
   return (
     <>
-      <div className="bg-white">
+      <div style={styles.bgImg}  className="bg-white text-white">
         <Navigation></Navigation>
         <div className="my-5 flex flex-col items-center">
           <div className="w-2/4">
